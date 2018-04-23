@@ -1,4 +1,4 @@
-@relation child
+@relation child-weka.filters.unsupervised.attribute.Remove-R18
 
 @attribute A1_Score {0,1}
 @attribute A2_Score {0,1}
@@ -17,14 +17,12 @@
 @attribute austim {no,yes}
 @attribute contry_of_res {Jordan,'United States',Egypt,'United Kingdom',Bahrain,Austria,Kuwait,'United Arab Emirates',Europe,Malta,Bulgaria,'South Africa',India,Afghanistan,Georgia,'New Zealand',Syria,Iraq,Australia,'Saudi Arabia',Armenia,Turkey,Pakistan,Canada,Oman,Brazil,'South Korea','Costa Rica',Sweden,Philippines,Malaysia,Argentina,Japan,Bangladesh,Qatar,Ireland,Romania,Netherlands,Lebanon,Germany,Latvia,Russia,Italy,China,Nigeria,'U.S. Outlying Islands',Nepal,Mexico,'Isle of Man',Libya,Ghana,Bhutan}
 @attribute used_app_before {no,yes}
-@attribute result numeric
 @attribute age_desc {'4-11 years'}
 @attribute relation {Parent,Self,Relative,'Health care professional',self}
 @attribute Class/ASD {NO,YES}
 
 @data
-1,1,0,0,1,1,0,1,0,0,6,m,Others,no,no,Jordan,no,5,'4-11 years',Parent,?
-1,1,0,0,1,1,0,1,0,0,6,m,'Middle Eastern ',no,no,Jordan,no,5,'4-11 years',Parent,?
-1,1,0,1,1,1,1,0,0,0,7,f,White-European,no,no,'United Kingdom',no,6,'4-11 years',Parent,?
-1,1,1,1,1,1,1,0,1,1,4,m,Black,yes,no,'United States',no,9,'4-11 years',Parent,?
-
+1,1,0,0,1,1,0,1,0,0,6,m,Others,no,no,Jordan,no,'4-11 years',Parent,?
+1,1,0,0,1,1,0,1,0,0,6,m,'Middle Eastern ',no,no,Jordan,no,'4-11 years',Parent,?
+1,1,0,1,1,1,1,0,0,0,7,f,White-European,no,no,'United Kingdom',no,'4-11 years',Parent,?
+1,1,1,1,1,1,1,0,1,1,4,m,Black,yes,no,'United States',no,'4-11 years',Parent,?
